@@ -79,3 +79,64 @@ go run ./calculate_average/main.go
 ```bash
 go run ./total_sum/main.go
 ```
+
+## Desafio 4
+### Revisão das Estimativas
+   Primeiramente, é importante avaliar se as estimativas atuais são realistas. 
+   Considerando o contexto e a complexidade das tarefas, aqui estão algumas sugestões de ajustes:
+
+#### Task 1: Criar Rota de Get para Produto
+
+Estimativa Atual: 2 dias Revisão: 2 dias (mantida, pois geralmente é uma tarefa direta)
+
+#### Task 2: Criar Rota de Post e Patch para Usuário
+
+Estimativa Atual: 4 dias Revisão: 5 dias (considerando a complexidade adicional de lidar com diferentes métodos HTTP)
+
+#### Task 3: Criar testes automatizados para fluxo de notificações
+
+Estimativa Atual: 3 dias Revisão: 3 dias (mantida)
+
+#### Task 4: Criar front end da tela de times
+
+Estimativa Atual: 2 dias Revisão: 2 dias (mantida)
+
+#### Task 5: Fazer integração do front com o back na tela de times
+
+Estimativa Atual: 3 dias Revisão: 4 dias (integração pode ser complexa, dependendo das APIs e lógica de negócio)
+
+#### Task 6: Correção de erro 500 retornado na rota de Get dos clientes
+
+Estimativa Atual: 1 dia Revisão: 1 dia (mantida, mas com prioridade para evitar bloqueios)
+
+### Revisão de Alocação de Recursos
+Com três desenvolvedores disponíveis, a alocação deve ser otimizada com suas respectivas prioridades:
+
+#### Desenvolvedor 1:
+
+Task 3 (To Do)
+
+Task 6 (In Progress)
+
+total 4 dias
+
+#### Desenvolvedor 2:
+
+Task 5 (To Do)
+Task 4 (In Progress)
+
+total 5 dias
+
+#### Desenvolvedor 3:
+
+Task 2 (To Do)
+Task 1 (In Progress)
+
+total 6 dias
+
+### Ações Complementares:
+- Reuniões diárias para acompanhamento do progresso e ajustes rápidos.
+- Revisões de código frequentes para garantir a qualidade e evitar retrabalho.
+- Comunicação contínua com o time de produto para alinhar expectativas e gerir riscos.
+
+![Captura de Tela 2024-08-25 às 23.23.12.png](Captura%20de%20Tela%202024-08-25%20%C3%A0s%2023.23.12.png)
